@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>ProvanniA3</title>
+  <base href="http://provanni.github.io/A3/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+<link rel="stylesheet" href="styles.d166c721a1f34ea9566c.css"></head>
+
+<body>
+  <app-root></app-root>
+
+
+
+  <script type="text/javascript">
+
+    window.onload = function () {
+
+
+
+
+      var btn0 = document.getElementById("sng1");
+      var btn1 = document.getElementById("sng2");
+      var btn2 = document.getElementById("sng3");
+      var btn3 = document.getElementById("sng4");
+
+      var sng0 = document.getElementById("song0");
+      var sng1 = document.getElementById("song1");
+      var sng2 = document.getElementById("song2");
+      var sng3 = document.getElementById("song3");
+
+      var pic0 = document.getElementById("pic0");
+      var pic1 = document.getElementById("pic1");
+      var pic2 = document.getElementById("pic2");
+      var pic3 = document.getElementById("pic3");
+
+      function clearSongs() {
+        sng0.style.display = 'none';
+        sng1.style.display = 'none';
+        sng2.style.display = 'none';
+        sng3.style.display = 'none';
+      }
+
+      function clearImg(){
+        pic0.style.display = 'none';
+        pic1.style.display = 'none';
+        pic2.style.display = 'none';
+        pic3.style.display = 'none';
+      }
+
+      btn0.addEventListener("click", function () {
+
+        clearSongs();
+        clearImg();
+        sng0.style.display = 'block';
+        pic0.style.display = 'block';
+
+      });
+
+      btn1.addEventListener("click", function () {
+
+        clearSongs();
+        clearImg();
+        sng1.style.display = 'block';
+        pic1.style.display = 'block';
+
+      });
+      btn2.addEventListener("click", function () {
+
+        clearSongs();
+        clearImg();
+        sng2.style.display = 'block';
+        pic2.style.display = 'block';
+
+      });
+      btn3.addEventListener("click", function () {
+
+        clearSongs();
+        clearImg();
+        sng3.style.display = 'block';
+        pic3.style.display = 'block';
+
+      });
+    }
+
+
+
+  </script>
+
+<script type="text/javascript" src="runtime.26209474bfa8dc87a77c.js"></script><script type="text/javascript" src="es2015-polyfills.1e04665e16f944715fd2.js" nomodule></script><script type="text/javascript" src="polyfills.8bbb231b43165d65d357.js"></script><script type="text/javascript" src="main.3d7c1f4ae69552df61cc.js"></script></body>
+
+</html>
